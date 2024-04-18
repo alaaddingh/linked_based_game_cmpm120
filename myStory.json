@@ -1,0 +1,365 @@
+{
+    "Title": "Eightfold Path",
+    "Credits": "Created by Ala'addin Ghosheh aghosheh@ucsc.edu",
+    "InitialLocation": "starting_point",
+    "Locations": {
+        "starting_point": {
+            "Body": "Beings are the owners of their actions the heirs of their actions they spring from their actionsare bound to their actions and are supported by their actions. Whatever deeds they do good or bad  of those they shall be heirs. <br> - Bhikkhu Bodhi",
+            "Choices": [
+                {
+                    "Text": "Continue",
+                    "Target": "rules_page"
+                }
+            ]
+        },
+        "rules_page": {
+            "Body": "You are the Prince of Sakyas who has led a sheltered life, in the comfort of your lavish castle. Your parents rule over an imbalanced Kingdom and you've recently come to terms with the fact that balance must be restored. You recall the Eight important virtues that good kingdom must abide by: <br> 1) Right View <br>  2) Right Resolve <br>   3) Right Speech  <br>   4) Right Action <br>    5) Right Livelihood <br>   6) Right Effort <br>   7) Right Mindfullness <br> 8) Right Concentration",
+            "Choices": [
+                {
+                    "Text": "Start Game",
+                    "Target": "Bedroom"
+                }
+                
+            ]
+        },
+        "Bedroom": {
+            "Body": "You wake up from it all. From the mesmerizing dreams of achieving ascension, to the dreams of a perfect world free of suffering surrounded by impenetrable castle walls. You're overwhelmed by the urge to flee this lie you've been forced to live your whole life. You tear off the layers of silk sheets weighing down on you and sprint down the corridor towards the castle entrance. ",
+            "Choices": [
+                {
+                    "Text": "Castle Entrance",
+                    "Target": "castle_entrance"
+                }
+            ]
+        },
+        "castle_entrance": {
+            "Body": "Broad-shouldered Demitri stops you in your path. Though a close friend of yours, his first priority will always be to guard the castle gates. He asks what you intend to do outside of the castle. You consider asking him to give you the keys so you may sneak out at night. It is either this or climbing out your window later this evening.",
+            "Choices": [
+                {
+                    "Text": "Ask for the keys",
+                    "Target": "keys_option1"
+                },
+                {
+                    "Text": "Climb out the window later",
+                    "Target": "window_option1"
+                }
+            ]
+        },
+        "keys_option1": {
+            "Body": "Demitri hesitantly agrees to give you his keys but asks you to swear you won't mention his name if caught. You agree and continue on, out of the courtyard.",
+            "Choices": [
+                {
+                    "Text": "Continue to Courtyard",
+                    "Target": "warning_screen1"
+                }
+            ]
+        },
+
+        "window_option1": {
+            "Body": "You decide you don't wish to risk Demitri's livelihood and sneak out through the window at night. You find you are able to climb down the window sills safely and reach the soil below. You then continue onward, out of the courtyard. ",
+            "Choices": [
+                {
+                    "Text": "Continue to Courtyard",
+                    "Target": "cottage"
+                }
+            ]
+        },
+         
+        
+
+
+
+
+        "cottage": {
+            "Body": "You embark on your journey for the truth, traversing the kingdom's land throughout the evening. By midnight, you reach a neighbouring cottage and decide this will be where you rest for the night. It is cold out and you reckon you could perhaps see if any of the village folk will host your for the night.",
+            "Choices": [
+                {
+                    "Text": "Ask a villager for shelter?",
+                    "Target": "shelter"
+                },
+                {
+                    "Text": "Gather firewood?",
+                    "Target": "firewood"
+                }
+            ]
+        },
+        "shelter": {
+            "Body": "You knock on a villager's door and anxiously wait for them to open. They hear you out and begrudgingly allow you to settle in for the night. You look around and determine that these village folk aren't in a position to be gratiutious, as they seem to hardly have a put-together home for themselves. You rest your eyes as you anticipate the continued journey ahead. ",
+            "Choices": [
+                {
+                    "Text": "Continue",
+                    "Target": "warning_screen2"
+                }
+            ]
+        },
+
+        "firewood": {
+            "Body": "You decide not to disturb the most likely impoverished village folk, for you know of the wealth inequality in your kingdom. You gather firewood and find a nested spot underneath an oak tree to build a cozy fire. You rest for the night in preparation for the journey ahead.",
+            "Choices": [
+                {
+                    "Text": "Continue",
+                    "Target": "cottage_border"
+                }
+            ]
+        },
+        "cottage_border": {
+            "Body": "You wake up the next morning, pack your belongings, and continue on your way. However, you are met face-to-face with the cottage's militia leader as he is guarding the boarders, who does not recognize you. He demands you indentify yourself at once. <br> You contemplate what to tell him. What if he sends a message back to your parents and they send their subjects to come find you? Do you tell him the truth , that you are the Prince of the Sakyas Kingdom or do you tell a lie and state you are from the local fishing village, the Machemarme?",
+            "Choices": [
+                {
+                    "Text": "Say You are from the fish tribe",
+                    "Target": "chased_away"
+                },
+                {
+                    "Text": "Tell the truth",
+                    "Target": "loyal_guard"
+                }
+            ]
+        },
+
+        "chased_away":{
+            "Body": "He is displeased to hear you are from the local fishing tribe as they had recently not held up their end of a bargain in recent trades. He chases you out of the town and you are forced to scurry away.",
+            "Choices":[
+                {
+                    "Text": "Continue",
+                    "Target": "warning_screen3"
+                }
+            ]
+        },
+
+        "loyal_guard": {
+            "Body": "You tell him who you really are and to your surprise, he is eagered to meet you. He informs you he was a loyal guard of your parents for 20 years, yet had let one too many servants slip outside the castle gates and was discharged. Still, he recalls his time in the castle with great fondness and happily allows you to proceed.",
+            "Choices":[
+                {
+                    "Text": "Continue",
+                    "Target": "hills"
+                }
+            ]
+        },
+        
+        "hills": {
+            "Body": "Shortly, your eyes are met with the sight of a treachorous hill, and you feel your stomach churn as an unshakable sense of remorse clutches onto you. when suddenly two hideous giant heads peer down upon you from a top the hills.\"I don't like this one.\" sneers the head on the left. They seem to want something? ",
+            "Choices":[
+                {
+                    "Text": "Continue",
+                    "Target": "riddle"
+                }
+            ]
+        },
+        "riddle": {
+            "Body": "\" Bring us the blood of the innocent.\" the monsterous beings boom. They seem to doubt your abilities. you see a Tree orchard to your left and a herd of cows to your right.",
+            "Choices":[
+                {
+                    "Text": "Tree Orchard",
+                    "Target": "tree_orchard"
+                },
+                {
+                    "Text": "herd of cows",
+                    "Target": "herd_of_cows"
+                }
+
+            ]
+        },
+
+        "herd_of_cows":{
+            "Body": "you approach the herd welding a handknife and, to your dismay proceed to slaughter a baby cow. You pick up the corpse and present it to the heads, but to your surprise they are not pleased with yoyr offerings.\"We knew you didn't have what it took!\" exlaims the one the right. \"Nonetheless, you may proceed. . We wish you nothing but luck, you'll need it.\"",
+            "Choices":[
+                {
+                    "Text": "Continue",
+                    "Target": "warning_screen4"
+                }
+            ]
+        },
+
+        "tree_orchard":{
+            "Body": "you approach the tree orchard, for you are well aware of the holiness of the cow. As you draw closer to the field, you observe tiny orange speckles decorating each branch. You give one of the trees a good shake and a fruit falls into your hand. You crack it open only to find red juice dripping out. It was a riddle! You return to the hill and present the beings with the blood orange you've collected. The heads are displeased by your success, though nonethless allow you to proceed.",
+            "Choices":[
+                {
+                    "Text": "Continue",
+                    "Target": "market"
+                }
+            ]
+        },
+
+        "market":{
+            "Body": "You pass through the treacherous hills, worried more than ever for what the fates have in store for you. After you cross through, you found that you've exerted a lot of energy. You spot a market up ahead where you figure you could recover and perhaps purchase more food. However, as you reach into your bag, it dawns upon you that you are low on currency. You must find work.",
+            "Choices":[
+                {
+                   "Text": "Continue",
+                   "Target": "find_work"
+                }
+            ]
+        },
+
+        "find_work":{
+            "Body": "You observe farmers who are clearly in need of a helping hand raising and trading off their baby lamb, but you also consider becoming a bard and retelling the story of your journey thus far for all to hear.",
+            "Choices":[
+                {
+                    "Text": "Help a farmer",
+                    "Target": "farm_work"
+                },
+                {
+                    "Text": "Become a bard",
+                    "Target": "become_a_bard"
+
+                }
+            ]   
+        },
+
+        "farm_work":{
+            "Body": "You decide to help local farmers breed baby lamb. Though it quickly becomes apparent how inhumane the process is as they mass breed the beings to maximize their profit. Nonetheless, you get enough money to purchase food and continue on your journey.",
+            "Choices":[
+                {
+                    "Text": "continue",
+                    "Target": "warning_screen5"
+                }
+            ]
+        },
+
+        "become_a_bard":{
+            "Body": "You relay to the market-goers about your journey thus far. You tell them you are the Prince and how you had heard of sickness and famine in the world, yet had never experienced any of it. You tell the you've reached an epiphany, that you must endure all the sicknessess and evils of the world in order to cultivate a kingdom of peace. Some shake their heads at this sentiment, others clap. Nonetheless, you get enough money to purchase food and continue on your journey.",
+            "Choices":[
+                {
+                  "Text": "continue",
+                   "Target": "burglars" 
+                }
+            ]
+        },
+
+        "burglars":{
+            "Body": "You bid your farewells, and make your way down to the market. Though as you approach the clutter of shops, you notice how sickly everyone seems to appear. They all engage in intense eye-contact with you and the hunger is visible in their eyes, But they all know you've failed them. As you are shopping for food items, you notice two younger civilians steal a basket of dragon fruit. They seem to be brandishing weapons in their holsters as well. <br> You contemplate whether you should confront them or allow karma to work its magic on them.",
+            "Choices":[
+                {
+                    "Text": "Confront them",
+                    "Target": "confront_burglars"       
+                },
+                {
+                    "Text": "Let Karma do its thing",
+                    "Target": "karma_action"
+                    
+                }
+            ]   
+        },
+        
+       "karma_action":{
+        "Body": "You decide the world will serve them justice and watch as they escape, unscathed. You shrug it off and continue on your way.",
+        "Choices":[
+            {
+                "Text": "Continue",
+                "Target": "warning_screen6"
+            }
+        ]
+
+       },
+
+       "confront_burglars":{
+        "Body": "You ask the young men what they plan to do with those fruits and to your surprise, they seem mortified. We're good people.\" One of them insists, \"just very hungry.\"You offer to buy it for them and they thank you graciously. <br> \"Before you continue on your journey, we would like to gift you with something that shall help you during your future endeavors\" one of them say before handing you a *CANDLE*. <br> \"This shall releive you of all of your sins.\"<br> you bid them farewell and continue on.",
+        "Choices":[
+            {
+                "Text": "Continue",
+                "Target": "tree_2"
+            }
+        ]
+       },
+
+       "tree":{
+        "Body": "As you depart from the market, you feel a strong presence of hope in the atmosphere. You feel as though you are almost at your destination, wherever that may be. As you push onward through a flat landscape, you spot a large yet petrified looking oak tree. It appears to be infested, plagued with illness even. There is shade beneath yet no food for miles. You think for a moment as you decide whether you should rest underneath the tree or keep searching for food.",
+        "Choices":[
+            {
+                "Text":"rest",
+                "Target": "under_tree"
+            },
+            {
+                "Text": "keep searching",
+                "Target": "keep_searching"
+            }
+        ]
+    },
+        "tree_2":{
+            "Body": "As you depart from the market, you feel a strong presence of hope in the atmosphere. You feel as though you are almost at your destination, wherever that may be. As you push onward through a flat landscape, you spot a large yet petrified looking oak tree. It appears to be infested, plagued with illness even. There is shade beneath yet no food for miles. You think for a moment as you decide whether you should rest underneath the tree or keep searching for food.",
+            "Choices":[
+                {
+                    "Text":"rest",
+                    "Target": "under_tree_2"
+                },
+                {
+                    "Text": "keep searching",
+                    "Target": "keep_searching"
+                }
+            ]
+       },
+      
+       "under_tree":{
+        "Body": "You go to take shelter beneath the tree branches and feel a calming aura overtake your mind. You rest your weary eyes and try to tune out the powerful sensations of soreness and hunger. However, you cannot fall into a state of meditation. Right when you feel as though you are ready to try again, a creaking noise is produced from behind you. The tree bends its branches down and casts a lifetime of sickness and famine onto you. Somewhere along your journey, you displeased the universe and must now suffer the consequences."
+       },
+
+       "under_tree_2":{
+        "Body": "You go to take shelter beneath the tree branches and feel a calming aura overtake your mind. You rest your weary eyes and try to tune out the powerful sensations of soreness and hunger. You fall into a deep meditatative state and are able to envision a world rid of plagues, famine, and warfare. You embrace this vision with a grin on your face as you sit beneath this tree for many nights and days."
+       },
+
+        
+
+
+        
+
+
+
+        "warning_screen1": {
+            "Body": "Wrong View <br> You've prioritized your needs over the livelihood of your friend. Refrain from these sorts of acts as you continue on your journey ahead as you pursue an altruistic way of living. <br>-1 Morality",
+            "Choices": [
+                {
+                    "Text": "Continue to Courtyard",
+                    "Target": "cottage"
+                }
+            ]
+        },
+        "warning_screen2": {
+            "Body": "Wrong Resolve <br> In your pursuits of reaching an ascended form of life, you mustn't take from the needy and must overlook your desires. Keep this in mind in your journey ahead. <br>-1 Morality",
+            "Choices": [
+                {
+                    "Text": "Continue",
+                    "Target": "cottage_border"
+                }
+            ]
+        },
+
+        "warning_screen3":{
+            "Body": "Wrong Speech <br> There is no honor in deceiving members of your kingdom, whether friend or foe. Keep this in mind as you venture on. <br> -1 Morality",
+            "Choices":[
+                {
+                    "Text": "Continue",
+                    "Target": "hills"
+                }
+            ]
+        },
+
+        "warning_screen4":{
+            "Body": "Wrong Action <br> In your pursuits of altruism, you should never find an excuse to harm a sentient being. Keep this in mind in your journey ahead. <br> -1 Morality",
+            "Choices":[
+                {
+                    "Text": "Continue",
+                    "Target": "market"
+                }
+            ]
+        },
+
+        "warning_screen5":{
+            "Body": "Wrong Livelihood <br> Engaging in harmful practices, such as the trading of weaponry or living creatures is not a wholesome practice. Keep this in mind as continue your journey. <br> -1 Morality",
+            "Choices":[
+                {
+                    "Text": "Continue",
+                    "Target": "burglars"
+                }
+            ]
+        },
+
+        "warning_screen6":{
+            "Body": "Wrong Effort <br> When you view corruption in the world, you must always give your best efforts to mend it. keep in this in mind as you venture on.<br> -1 morality",
+            "Choices":[
+                {
+                    "Text": "Continue",
+                    "Target": "tree"
+                }
+            ]
+        }
+
+    }
+}
